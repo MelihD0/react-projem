@@ -1,0 +1,11 @@
+/* RESİM GEÇİŞ */
+.yemek1 {
+  height: 580px;
+  width: 100%;
+}
+/* Media */
+@media only screen and (max-width: 500px) {
+  .yemek1 {
+    height: 200px;
+  }
+}

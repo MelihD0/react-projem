@@ -1,0 +1,135 @@
+/* HEADER */
+header {
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  align-items: center;
+  padding-right: 50px;
+  background-color: rgb(197, 97, 97);
+}
+/* BUTTON */
+.kayitLink,
+.girisLink {
+  width: 90px;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.kayitLink:hover {
+  color: rgb(132, 84, 221);
+}
+.girisLink:hover {
+  color: rgb(132, 84, 221);
+}
+.icon {
+  margin-top: 5px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.slash {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  width: 97%;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  padding-left: 60px;
+  margin-top: 1px;
+}
+/* LOGO */
+.logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 22px;
+}
+/* SAYFALAR */
+.sayfalarDiv > a {
+  margin-right: 70px;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.sayfalarDiv > a:hover {
+  color: rgb(252, 28, 121);
+}
+/* Media */
+@media only screen and (max-width: 500px) {
+  header {
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  nav {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .sayfalarDiv > a {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .kayitLink,
+  .girisLink {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    header {
+      justify-content: center;
+      padding-right: 20px;
+    }
+
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 20px;
+      width: 100%;
+      height: auto;
+    }
+
+    .sayfalarDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .sayfalarDiv > a {
+      margin-right: 0;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .kayitLink,
+    .girisLink {
+      width: auto;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .icon {
+      margin-top: 0;
+      font-size: 18px;
+    }
+  }
+}

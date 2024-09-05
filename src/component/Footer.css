@@ -1,0 +1,31 @@
+/* FOOTER */
+footer {
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.iletisimDiv {
+  padding-top: 10px;
+  font-size: 21px;
+  width: 600px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+/* ICON */
+.telefon {
+  padding-right: 20px;
+}
+
+.mail {
+  padding-right: 20px;
+}

@@ -1,0 +1,23 @@
+.aciklamaResim {
+  width: 500px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 70px;
+  border-radius: 100%;
+  float: left;
+}
+.aciklama {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+  margin-right: 10px;
+}
+/* Media */
+@media only screen and (max-width: 500px) {
+  .aciklamaResim {
+    width: 390px;
+    margin-left: 10px;
+  }
+}
